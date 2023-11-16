@@ -1,0 +1,36 @@
+.contacts-main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 2%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.contact-div{
+    /* background-color: red; */
+    /* padding: 2%; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left{
+    width: 10%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-left>img{
+    width: 35%;
+}
+
+.contact-right>a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}

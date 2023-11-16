@@ -1,0 +1,98 @@
+.home-main{
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-main .home-left{
+  height: 90%;
+  width: 60%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-main .home-left .greeting-name .name{
+  font-size: 5.3rem;
+  font-weight: 600;
+  word-spacing: 2rem;
+  color: #333;
+  /* font-family: "raleway"  !important; */
+}
+
+.home-main .home-left .greeting-name .job{
+  font-size: 1.5rem;
+  padding-left: 1%;
+  word-spacing: 1rem;
+  /* background-color: aliceblue; */
+  font-weight: 400;
+  color: #555;
+}
+
+.home-main .home-left .profile{
+  /* background-color: antiquewhite; */
+  width: 82%;
+  font-size: 1.23rem;
+  word-spacing: 0.3rem;
+  text-align: justify;
+  line-height: 1.7rem;
+}
+
+.home-main .home-right{
+  height: 100%;
+  width: 40%;
+  /* background-color: rosybrown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotateSkew {
+  from{
+      transform: rotate(0deg);
+  }
+  50%{
+      scale: 1 1.2;
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+
+.home-main .home-right .photo-frame{
+  width: 65%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(10deg,#83a4d4, #b6fbff);
+}
+
+.home-main .home-right .photo-frame .photo-glass{
+  width: 40%;
+  height: 90%;
+  /* background-color: red; */
+  position: absolute;
+}
+
+
+.home-main .home-right .photo-frame>img{
+  backdrop-filter: blur(40px);
+  /* position: absolute; */
+  z-index: 2;
+  object-fit: contain;
+  aspect-ratio: 1;
+  width: 100%;
+  border-radius: 50%;
+  /* background-color: rgba(255, 255, 255, 0.208); */
+}
+
+.home-spinner{
+  position: absolute;
+  top: 45%;
+}

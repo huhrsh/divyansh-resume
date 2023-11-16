@@ -1,0 +1,16 @@
+.skills-main{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 2%;
+    gap: 3vh;
+    padding-top: 4%;
+    /* justify-content: center; */
+    padding-left: 10%;
+}
+
+.individual-skills{
+    font-size: 1.4rem;
+    font-weight: 400;
+}

@@ -1,0 +1,45 @@
+.education-main{
+    /* background-color: red; */
+    height: 90vh;
+    /* min-height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 5% 0 5% 10%;
+    overflow: hidden;
+}
+
+.education-div{
+    /* background-color: red; */
+    width: 90%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../Assets/white-texture.jpg');
+    background-size: contain; */
+    border-radius: 5px;
+}
+
+.institute{
+    font-size: 1.6rem;
+    font-weight: 600;
+    z-index: 2 !important;
+}
+
+.course,.edu-right{
+    font-size: 1.2rem;
+}
+
+/* .hat-div{
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -9vh;
+    left: -5vw;
+}
+
+.hat-div>img{
+    width: 10vw;
+} */
