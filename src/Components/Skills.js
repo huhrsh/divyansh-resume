@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Skills.css";
-import bg from '../Assets/bg.mp4'
 
 function Skills() {
   const [skills, setSkills] = useState([
@@ -33,9 +32,6 @@ function Skills() {
   return (
     <>
       <main className={`skills-main`}>
-        <video autoPlay='true' loop muted preload='auto'>
-                    <source src={bg}/>
-        </video>
         {visibleSkills.map((item, index) => (
           <h3 className="individual-skills animate__animated animate__fadeInUp" key={index}>
             {item}

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import bg from '../Assets/bg.mp4'
 import '../Styles/Contacts.css'
 
 function Contacts(){
@@ -25,11 +24,8 @@ function Contacts(){
     return(
         <>
             <main className='contacts-main'>
-                <video autoPlay='true' loop muted preload='auto'>
-                    <source src={bg}/>
-                </video>
                 {contactDetails.map((contacts,index)=>(
-                    <div className='contact-div' key={index}>
+                    <div className='contact-div animate__animated animate__fadeInUp' key={index}>
                         <div className='contact-left'>
                             <img src={contacts.image} alt={contacts.name}/>
                         </div>

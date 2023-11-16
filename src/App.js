@@ -12,7 +12,7 @@ import { ErrorPage } from './Components/ErrorPage';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Lokis-Resume/",
       element: <Navbar />,
       children: [
         {index: true, element: <Home/>},

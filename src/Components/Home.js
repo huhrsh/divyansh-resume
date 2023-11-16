@@ -2,7 +2,6 @@ import '../Styles/Home.css'
 import picture from  '../Assets/Loki.png';
 import { useState,useEffect } from 'react';
 import {PacmanLoader} from 'react-spinners'
-import bg from '../Assets/bg.mp4'
 
 function Home(){
 
@@ -19,9 +18,6 @@ function Home(){
     return (
         <>
         <main className='home-main'>
-        <video autoPlay='true' loop muted preload='auto'>
-                    <source src={bg}/>
-                </video>
         {!imageLoaded ? (
                     <div className="home-spinner">
                         <PacmanLoader color="#333" loading={!imageLoaded} size={20} />
@@ -45,7 +41,7 @@ initiatives, and provide sound financial advice
             <div className='home-right'>
                 <div className='photo-frame'>
                     <div className='photo-glass'></div>
-                    <img src={picture} alt='profile'/>
+                    <img src={picture}  alt='profile'/>
                 </div>
             </div>  
                     </>

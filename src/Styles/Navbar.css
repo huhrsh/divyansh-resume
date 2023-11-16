@@ -45,3 +45,10 @@ header{
     left: 1px;
     transform: scaleX(1);
 }
+
+
+.navbar-spinner{
+    position: absolute;
+    top: 45vh;
+    left: 47vw;
+}

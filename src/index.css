@@ -3,13 +3,18 @@
   src: url('./Assets/Captura-HeavyDemo.ttf');
 }
 
+@font-face {
+  font-family: 'montserrat';
+  src: url('./Assets/Montserrat-VariableFont_wght.ttf');
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   color: #333;
-  font-family: poppins  !important;
-  font-family: "raleway"  !important;
+  /* font-family: poppins  !important;
+  font-family: "raleway"  !important; */
   font-family: montserrat !important;
 
 }
@@ -31,7 +36,7 @@ video{
   position: fixed;
   z-index: -1;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.25;
   position: fixed;
   left: 0;
   top: 10vh;

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import '../Styles/Education.css'
-import bg from '../Assets/bg.mp4'
 // import hat from '../Assets/degree.png';
 
 function Education(){
@@ -21,9 +20,6 @@ function Education(){
     return(
         <>
             <main className="education-main">
-                <video autoPlay='true' loop muted preload='auto'>
-                    <source src={bg}/>
-                </video>
                 {educationDetails.map((item,index)=>(
                     <div className='education-div animate__animated animate__fadeInUp' key={index}>
                         <div className='edu-left'>

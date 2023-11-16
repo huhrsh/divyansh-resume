@@ -1,6 +1,5 @@
 import { useState } from "react";
 import '../Styles/WorkExperience.css'
-import bg from '../Assets/bg.mp4'
 
 function WorkExperience(){
 
@@ -52,9 +51,6 @@ function WorkExperience(){
     return(
         <>
             <main className="experience-main">
-                <video autoPlay='true' loop muted preload='auto'>
-                    <source src={bg}/>
-                </video>
                 <div className="employment">
                     {/* <h1 className="experience-main-heading">Employment History</h1> */}
                 {workDetails.map((item,index)=>(
