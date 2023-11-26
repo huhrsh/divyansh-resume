@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import '../Styles/Navbar.css'
 import bg from '../Assets/bg.mp4'
 import {PacmanLoader} from 'react-spinners'
@@ -8,8 +8,9 @@ function Navbar(){
 
     const [loading, setLoading]=useState(false);
 
+    useEffect(()=>{
 
-
+    },[loading])
 
     return (
         <>
@@ -20,7 +21,7 @@ function Navbar(){
                     </div>
                     <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
                         <source src={bg}/>
-            </video>
+                    </video>
             </>
            : <>
             <header>
