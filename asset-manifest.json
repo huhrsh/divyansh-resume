@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Lokis-Resume/static/css/main.69729ba3.css",
-    "main.js": "/Lokis-Resume/static/js/main.0913a00e.js",
-    "static/media/bg.mp4": "/Lokis-Resume/static/media/bg.a773041f8ee25443d35f.mp4",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/Lokis-Resume/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
-    "static/media/Loki.png": "/Lokis-Resume/static/media/Loki.059955c7ba704ed3ef3a.png",
-    "static/media/error.png": "/Lokis-Resume/static/media/error.dfdbfd17f10651c76129.png",
-    "static/media/Captura-HeavyDemo.ttf": "/Lokis-Resume/static/media/Captura-HeavyDemo.409db7f13ed84a24444f.ttf",
-    "index.html": "/Lokis-Resume/index.html",
-    "main.69729ba3.css.map": "/Lokis-Resume/static/css/main.69729ba3.css.map",
-    "main.0913a00e.js.map": "/Lokis-Resume/static/js/main.0913a00e.js.map"
+    "main.css": "/divyansh-resume/static/css/main.30e15c81.css",
+    "main.js": "/divyansh-resume/static/js/main.fce8fb3c.js",
+    "static/media/bg.mp4": "/divyansh-resume/static/media/bg.a773041f8ee25443d35f.mp4",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/divyansh-resume/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Loki.png": "/divyansh-resume/static/media/Loki.059955c7ba704ed3ef3a.png",
+    "static/media/error.png": "/divyansh-resume/static/media/error.dfdbfd17f10651c76129.png",
+    "static/media/Captura-HeavyDemo.ttf": "/divyansh-resume/static/media/Captura-HeavyDemo.409db7f13ed84a24444f.ttf",
+    "index.html": "/divyansh-resume/index.html",
+    "main.30e15c81.css.map": "/divyansh-resume/static/css/main.30e15c81.css.map",
+    "main.fce8fb3c.js.map": "/divyansh-resume/static/js/main.fce8fb3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.69729ba3.css",
-    "static/js/main.0913a00e.js"
+    "static/css/main.30e15c81.css",
+    "static/js/main.fce8fb3c.js"
   ]
 }
