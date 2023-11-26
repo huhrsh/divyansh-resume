@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Lokis-Resume/static/css/main.69729ba3.css",
+    "main.js": "/Lokis-Resume/static/js/main.0913a00e.js",
+    "static/media/bg.mp4": "/Lokis-Resume/static/media/bg.a773041f8ee25443d35f.mp4",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/Lokis-Resume/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Loki.png": "/Lokis-Resume/static/media/Loki.059955c7ba704ed3ef3a.png",
+    "static/media/error.png": "/Lokis-Resume/static/media/error.dfdbfd17f10651c76129.png",
+    "static/media/Captura-HeavyDemo.ttf": "/Lokis-Resume/static/media/Captura-HeavyDemo.409db7f13ed84a24444f.ttf",
+    "index.html": "/Lokis-Resume/index.html",
+    "main.69729ba3.css.map": "/Lokis-Resume/static/css/main.69729ba3.css.map",
+    "main.0913a00e.js.map": "/Lokis-Resume/static/js/main.0913a00e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69729ba3.css",
+    "static/js/main.0913a00e.js"
+  ]
+}
