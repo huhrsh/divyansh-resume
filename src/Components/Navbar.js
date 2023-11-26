@@ -25,11 +25,11 @@ function Navbar(){
             </>
            : <>
             <header>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/">Home</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/education">Education</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/work-experience">Work Experience</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/skills">Skills</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/contacts">Contacts</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/divyansh-resume/">Home</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/divyansh-resume/education">Education</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/divyansh-resume/work-experience">Work Experience</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/divyansh-resume/skills">Skills</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/divyansh-resume/contacts">Contacts</NavLink>
             </header>
             <video autoPlay='true' loop muted preload='auto'>
                         <source src={bg}/>
